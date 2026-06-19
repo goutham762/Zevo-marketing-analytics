@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.egg-info/
+
+# DBT
+target/
+dbt_packages/
+logs/
+
+# Environment / credentials
+.env
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
