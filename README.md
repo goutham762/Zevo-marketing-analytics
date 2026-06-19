@@ -196,9 +196,9 @@ zevo-marketing-analytics/
 ```bash
 pip install -r requirements.txt
 
-python generate_data.py
+python pipeline/generate_data.py
 
-python ingest.py
+python pipeline/ingest.py
 
 cd zevo_analytics
 
